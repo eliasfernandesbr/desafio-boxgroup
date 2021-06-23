@@ -1,0 +1,8 @@
+{
+  "name": "desafio-boxgroup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eliasfernandesbr/desafio-boxgroup.git",
+  "author": "elias fernandes <eliasfernandescoutinho@gmail.com>",
+  "license": "MIT"
+}
