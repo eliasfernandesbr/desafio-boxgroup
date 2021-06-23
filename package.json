@@ -5,6 +5,9 @@
   "repository": "git@github.com:eliasfernandesbr/desafio-boxgroup.git",
   "author": "elias fernandes <eliasfernandescoutinho@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
