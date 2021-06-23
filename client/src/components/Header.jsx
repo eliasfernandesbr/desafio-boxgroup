@@ -13,7 +13,7 @@ export default function Header({selectedLang, setLang, languages, getRepos}) {
           <option value={language.name}>{language.name}</option>
         ))}
       </select>
-      <button onClick={getRepos}>BUSCAR</button>
+      <button onClick={getRepos}><i class="fas fa-search"></i></button>
     </header>
   );
 }

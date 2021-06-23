@@ -39,10 +39,10 @@ function App() {
         getRepos={getRepos}
       />
       <div>
-        <p>
-          Mostrando {repos.length} de {totalCount}
+        <p className='counter'>
+          Mostrando {repos.length} de {totalCount} repositórios no Github
         </p>
-        <ul>
+        <ul className='reposList'>
           {repos.map((repo) => (
            <RepoCard
            repo={repo}
