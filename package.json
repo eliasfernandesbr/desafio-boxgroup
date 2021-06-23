@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:eliasfernandesbr/desafio-boxgroup.git",
   "author": "elias fernandes <eliasfernandescoutinho@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
