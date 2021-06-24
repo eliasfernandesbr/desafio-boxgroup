@@ -8,21 +8,19 @@ function App() {
   const [languages, setLanguages] = useState([]);
   const [selectedLang, setLang] = useState("");
   const [repos, setRepos] = useState([]);
-  const [totalCount, setTotalCount] = useState(0)
+  const [totalCount, setTotalCount] = useState(0);
 
   const getLanguages = async () => {
-    const res = await axios.get("http://localhost:5000/api/languages");
+    const res = await axios.get("/api/languages");
     console.log(res.data);
     setLanguages(res.data);
   };
 
   const getRepos = async () => {
-    const res = await axios.get(
-      "http://localhost:5000/api/repos/" + selectedLang
-    );
+    const res = await axios.get("/api/repos/" + selectedLang);
     console.log(res.data);
     setRepos(res.data.items);
-    setTotalCount(res.data.total_count)
+    setTotalCount(res.data.total_count);
     // setLanguages(res.data);
   };
 
@@ -39,14 +37,12 @@ function App() {
         getRepos={getRepos}
       />
       <div>
-        <p className='counter'>
+        <p className="counter">
           Mostrando {repos.length} de {totalCount} repositórios no Github
         </p>
-        <ul className='reposList'>
+        <ul className="reposList">
           {repos.map((repo) => (
-           <RepoCard
-           repo={repo}
-           />
+            <RepoCard repo={repo} />
           ))}
         </ul>
       </div>
