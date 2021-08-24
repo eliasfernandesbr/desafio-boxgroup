@@ -62,8 +62,8 @@ https://github.com/eliasfernandesbr/desafio-boxgroup.git
 
 Reach out to me at one of the following places!
 
-- Linkedin at [Elias Fernandes](https://www.linkedin.com/in/fernandesnetobr/)
-- Email [eliasfernandescoutinho@gmail.com]
+- Linkedin at [Elias Fernandes](https://www.linkedin.com/in/eliasfernandescout/)
+- Email [eliasfernandescout@gmail.com]
 
 ---
 ## 📝 License
